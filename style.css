@@ -1,0 +1,67 @@
+.challange {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid;
+}
+
+/* Challange 2 styles */
+.make-money {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.coin-container {
+  padding: 10px;
+}
+
+.coin {
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.penny {
+  height: 60px;
+  width: 60px;
+  background-color: goldenrod;
+}
+
+.nickel {
+  height: 80px;
+  width: 80px;
+  background-color: silver;
+}
+
+.dime {
+  height: 40px;
+  width: 40px;
+  background-color: grey;
+}
+
+.quater {
+  height: 90px;
+  width: 90px;
+  background-color: lightgrey;
+}
+
+input,
+select {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+/* Challange 3 styles */
+#light-bulb {
+  padding: 10px 30px;
+  background-color: grey;
+  display: inline-block;
+  width: auto;
+}
+
+.light-bulb-btn {
+  margin: 10px;
+  padding: 10px 20px;
+}

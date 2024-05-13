@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="challange">
+      <h2>Vending Machine</h2>
+      <h2 class="total-price">Total: $0.00</h2>
+      <div>
+        <button id="btn-cola" class="buttons" data-price="2">
+          lime cola
+          <p>$2.00</p>
+        </button>
+        <button id="btn-peanuts" class="buttons" data-price="3">
+          salted peanuts
+          <p>$3.00</p>
+        </button>
+        <button id="btn-choco" class="buttons" data-price="4">
+          chocolate bar
+          <p>$4.00</p>
+        </button>
+        <button id="btn-gummies" class="buttons" data-price="6">
+          fruit gummies
+          <p>$6.00</p>
+        </button>
+      </div>
+    </section>
+    <section class="challange">
+      <h2>MAKE MONEY</h2>
+      <form class="make-money">
+        <label for="amount">How many?</label>
+        <input type="number" name="" id="amount" />
+        <label for="coin">Which coin?</label>
+        <select name="coin" id="coin">
+          <option value="penny">penny</option>
+          <option value="nickel">nickel</option>
+          <option value="dime">dime</option>
+          <option value="quater">quater</option>
+        </select>
+        <button>Make Money!</button>
+      </form>
+      <div class="coin-container"></div>
+    </section>
+    <section class="challange">
+      <h2>LIGHT BULB</h2>
+      <div id="light-bulb">Light Bulb</div>
+      <button class="light-bulb-btn on">On</button>
+      <button class="light-bulb-btn off">Off</button>
+      <button class="light-bulb-btn toggle">Toggle</button>
+      <button class="light-bulb-btn end">End</button>
+    </section>
+    <!-- SCRIPT.JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
