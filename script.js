@@ -110,6 +110,9 @@ makeMoneyForm.addEventListener("submit", (e) => {
     const newCoin = document.createElement("div");
     newCoin.classList.add("coin", typeOfCoin);
     newCoin.textContent = typeOfCoin;
+    newCoin.addEventListener("click", () => {
+      newCoin.style.display = "none";
+    });
     coinContainer.append(newCoin);
   }
 });
